@@ -32,7 +32,7 @@ export default function Navbar() {
                     </li>
                 ))}
                 <MenuItem setActive={setActive} active={active} item="Menu">
-                    <div className="flex flex-col space-y-4 text-sm">
+                    <div className="flex flex-col space-y-4 text-sm ">
                         <HoveredLink href="/login">LogIn</HoveredLink>
                         <HoveredLink href="/signup">SignUp</HoveredLink>
                         <HoveredLink href="/cookies">Cookies Policy</HoveredLink>
