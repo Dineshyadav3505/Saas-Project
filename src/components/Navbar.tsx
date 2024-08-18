@@ -1,6 +1,5 @@
 'use client'
 import Link from "next/link";
-import { Button1 } from "./Button1";
 import { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
   
@@ -22,7 +21,7 @@ export default function Navbar() {
 
     return (
 
-        <nav className="flex justify-between gap-3 bg-black items-center w-[88vw] max-w-xl text-sm sticky top-10 text-white px-5 py-3 mx-auto mt-10 rounded-full border-[1px] border-zinc-700">
+        <nav className="flex justify-between gap-3 bg-black items-center w-[88vw] max-w-xl text-sm sticky z-20 top-10 text-white px-5 py-3 mx-auto mt-10 rounded-full border-[1px] border-zinc-700">
             <ul className="flex space-x-10 lg:space-x-20 w-full justify-center">
                 {data.map((item, index) => (
                     <li key={index}>
