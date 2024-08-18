@@ -43,7 +43,7 @@ export default function ContactUs() {
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
-            className="w-full p-2 border border-gray-300 rounded"
+            className="w-full p-2 border bg-transparent outline-none border-gray-300 rounded"
           />
         </div>
         <div>
@@ -54,7 +54,7 @@ export default function ContactUs() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            className="w-full p-2 border border-gray-300 rounded"
+            className="w-full p-2 border border-gray-300 bg-transparent outline-none rounded"
           />
         </div>
         <div>
@@ -64,7 +64,7 @@ export default function ContactUs() {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             required
-            className="w-full p-2 border border-gray-300 rounded"
+            className="w-full p-2 border border-gray-300 bg-transparent outline-none rounded"
             rows="5"
           />
         </div>
