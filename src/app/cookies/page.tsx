@@ -1,9 +1,8 @@
-// components/CookiesPolicy.js
 import React from 'react';
 
 export default function CookiesPolicy() {
   return (
-    <div className="max-w-3xl mx-auto p-6 text-white bg-black">
+    <div className="max-w-3xl mx-auto p-6 py-10 text-white bg-black">
       <h1 className="text-3xl font-bold mb-4">Cookies Policy</h1>
       <p className="mb-4">
         This Cookies Policy explains how {process.env.NEXT_PUBLIC_PROJECTNAME} we uses cookies and similar technologies to recognize you when you visit our website at {process.env.NEXT_PUBLIC_WEBLINK}, {process.env.NEXT_PUBLIC_PROJECTNAME}. It explains what these technologies are, why we use them, and your rights to control our use of them.

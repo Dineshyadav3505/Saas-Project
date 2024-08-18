@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function PrivacyPolicy() {
   return (
-    <div className="max-w-3xl mx-auto p-6 text-white bg-black">
+    <div className="max-w-3xl mx-auto p-6 py-10 text-white bg-black">
       <h1 className="text-3xl font-bold mb-4">Privacy Policy for {process.env.NEXT_PUBLIC_PROJECTNAME}</h1>
       <p className="mb-4">
         At {process.env.NEXT_PUBLIC_PROJECTNAME}, accessible from {process.env.NEXT_PUBLIC_WEBLINK}, 
