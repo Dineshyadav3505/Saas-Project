@@ -13,8 +13,8 @@ export default function TermsOfService() {
         In these terms of service, the following definitions apply:
       </p>
       <ul className="list-disc ml-6 mb-4">
-        <li>"Website" means [Your Website Name], accessible at [Your Website URL].</li>
-        <li>"Company", "we", "us", or "our" refers to [Your Company Name].</li>
+        <li>"Website" means {process.env.NEXT_PUBLIC_PROJECTNAME}, accessible at {process.env.NEXT_PUBLIC_WEBLINK}.</li>
+        <li>"Company", "we", "us", or "our" refers to {process.env.NEXT_PUBLIC_PROJECTNAME}.</li>
         <li>"User", "you", or "your" refers to any individual or entity using the website.</li>
       </ul>
 
@@ -25,17 +25,17 @@ export default function TermsOfService() {
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">3. Intellectual Property</h2>
       <p className="mb-4">
-        The website and its entire contents, features, and functionality are owned by [Your Company Name] and are protected by copyright, trademark, and other intellectual property laws.
+        The website and its entire contents, features, and functionality are owned by {process.env.NEXT_PUBLIC_PROJECTNAME} and are protected by copyright, trademark, and other intellectual property laws.
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">4. Limitation of Liability</h2>
       <p className="mb-4">
-        In no event shall [Your Company Name] be liable for any indirect, special, incidental, or consequential damages arising out of or related to your use of the website.
+        In no event shall {process.env.NEXT_PUBLIC_PROJECTNAME} be liable for any indirect, special, incidental, or consequential damages arising out of or related to your use of the website.
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">5. Governing Law and Jurisdiction</h2>
       <p className="mb-4">
-        These terms of service shall be governed by and construed in accordance with the laws of [Your State/Country], without giving effect to any principles of conflicts of law.
+        These terms of service shall be governed by and construed in accordance with the laws of {process.env.NEXT_PUBLIC_ADDRESS}, without giving effect to any principles of conflicts of law.
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">6. Changes to Terms of Service</h2>
@@ -45,7 +45,7 @@ export default function TermsOfService() {
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">7. Contact Us</h2>
       <p className="mb-4">
-        If you have any questions or concerns about these terms of service, please contact us at [Your Email].
+        If you have any questions or concerns about these terms of service, please contact us at {process.env.NEXT_PUBLIC_EMAIL}.
       </p>
     </div>
   );

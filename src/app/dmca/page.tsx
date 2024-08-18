@@ -13,9 +13,9 @@ export default function Dmca () {
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">Contact Information</h2>
       <p className="mb-4">
-        <strong>Name:</strong> {process.env.PROJECTNAME} <br />
-        <strong>Email:</strong> {process.env.EMAIL} <br />
-        <strong>Address:</strong> {process.env.ADDRESS} <br />
+        <strong>Name:</strong> {process.env.NEXT_PUBLIC_PROJECTNAME} <br />
+        <strong>Email:</strong> {process.env.NEXT_PUBLIC_EMAIL} <br />
+        <strong>Address:</strong> {process.env.NEXT_PUBLIC_ADDRESS} <br />
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">Notice Requirements</h2>
@@ -33,7 +33,7 @@ export default function Dmca () {
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">Submit Your Notice</h2>
       <p className="mb-4">
-        Please send your DMCA notice to the following email address: <strong> {process.env.EMAIL} </strong>
+        Please send your DMCA notice to the following email address: <strong> {process.env.NEXT_PUBLIC_EMAIL} </strong>
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">Counter-Notice</h2>
@@ -50,7 +50,7 @@ export default function Dmca () {
       </ul>
 
       <p className="mb-4">
-        Please send your counter-notice to the following email address: <strong>{process.env.EMAIL}</strong>
+        Please send your counter-notice to the following email address: <strong>{process.env.NEXT_PUBLIC_EMAIL}</strong>
       </p>
     </div>
   )
