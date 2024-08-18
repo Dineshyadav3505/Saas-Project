@@ -1,8 +1,11 @@
+import HeroSection from "@/components/HeroSection";
+import ToolSection from "@/components/ToolSection";
 
 export default function Home() {
   return (
-    <div className=" h-screen bg-black">
-      <h1>home page </h1>
+    <div className="bg-black">
+      <HeroSection/>
+      <ToolSection/>
     </div>
     
   );
