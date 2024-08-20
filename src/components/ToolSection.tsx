@@ -4,12 +4,8 @@ import Link from 'next/link';
 
 const CustomDiv = () => {
     const data: DataItem[] = [
-        { img: "/images/sample1.jpg", label: "Merge PDF", description: "Combine your PDFs in the order you want, quickly and easily.", link: "/merge" },
-        { img: "/images/sample2.jpg", label: "Sample 2", description: "This is a sample description 2", link: "/sample2" },
-        { img: "/images/sample3.jpg", label: "Sample 3", description: "This is a sample description 3", link: "/sample3" },
-        { img: "/images/sample4.jpg", label: "Sample 4", description: "This is a sample description 4", link: "/sample4" },
-        { img: "/images/sample5.jpg", label: "Sample 5", description: "This is a sample description 5", link: "/sample5" },
-        { img: "/images/sample6.jpg", label: "Sample 6", description: "This is a sample description 6", link: "/sample6" },
+        { img: "/img/merge.png", label: "Merge PDF", description: "Combine your PDFs in the order you want, quickly and easily.", link: "/merge" },
+        { img: "/img/compress.png", label: "Compress PDF", description: "Quickly compress your PDFs for easier sharing.", link: "/compress" },
     ];
 
     interface DataItem {
@@ -30,7 +26,7 @@ const CustomDiv = () => {
                 className="w-full md:w-56 gap-2 bg-[#9e9e9e] flex lg:flex-col rounded-sm h-24 md:h-56 relative p-2 ">
                     <Image
                         src={item.img}
-                        className="object-cover rounded-sm bg-black"
+                        className="object-cover rounded-sm"
                         alt="Description of the image"
                         width={80}
                         height={80}
