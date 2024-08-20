@@ -42,7 +42,7 @@ const MergePDFs: React.FC = () => {
   };
 
   return (
-    <div className='bg-black h-[40rem] lg:flex'>
+    <div className='bg-black  lg:flex'>
       <div className="w-full h-[15%] lg:h-full lg:w-[20%]"></div>
       <div className="w-full h-[70%] px-3 lg:h-full lg:w-[60%] flex text-white flex-col items-center py-7 lg:py-20">
         <h1 className='text-4xl font-bold'>Merge PDF Files</h1>
