@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function TermsOfService() {
   return (
@@ -13,9 +13,9 @@ export default function TermsOfService() {
         In these terms of service, the following definitions apply:
       </p>
       <ul className="list-disc ml-6 mb-4">
-        <li>"Website" means {process.env.NEXT_PUBLIC_PROJECTNAME}, accessible at {process.env.NEXT_PUBLIC_WEBLINK}.</li>
-        <li>"Company", "we", "us", or "our" refers to {process.env.NEXT_PUBLIC_PROJECTNAME}.</li>
-        <li>"User", "you", or "your" refers to any individual or entity using the website.</li>
+        <li>&quot;Website&quot; means {process.env.NEXT_PUBLIC_PROJECTNAME}, accessible at {process.env.NEXT_PUBLIC_WEBLINK}.</li>
+        <li>&quot;Company&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot; refers to {process.env.NEXT_PUBLIC_PROJECTNAME}.</li>
+        <li>&quot;User&quot;, &quot;you&quot;, or &quot;your&quot; refers to any individual or entity using the website.</li>
       </ul>
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">2. Use of the Website</h2>

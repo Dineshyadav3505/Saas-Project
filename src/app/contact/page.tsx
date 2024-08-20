@@ -8,7 +8,7 @@ export default function ContactUs() {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:any) => {
     e.preventDefault();
     if (name && email && message) {
       // Simulate successful submission
@@ -65,7 +65,6 @@ export default function ContactUs() {
             onChange={(e) => setMessage(e.target.value)}
             required
             className="w-full p-2 border border-gray-300 bg-transparent outline-none rounded"
-            rows="5"
           />
         </div>
         {error && <p className="text-red-500">{error}</p>}
