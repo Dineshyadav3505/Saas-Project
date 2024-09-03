@@ -5,6 +5,7 @@ import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import AdSense from "@/components/AdSense";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,10 +22,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-black">
-          <Navbar/>
-            {children}
-          <Footer/>
-          <SpeedInsights />
+        <head>
+          <AdSense pId="ca-pub-9950312208283324" />
+        </head>
+        <Navbar />
+        {children}
+        <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );

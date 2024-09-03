@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { PDFDocument } from 'pdf-lib';
 import Image from 'next/image';
+import AdBanner from '@/components/AdBanner';
 
 const CompressPDFs: React.FC = () => {
   const [files, setFiles] = useState<File[]>([]);
@@ -50,7 +51,13 @@ const CompressPDFs: React.FC = () => {
 
   return (
     <div className='bg-black lg:flex'>
-      <div className="w-full h-[15%] lg:h-full lg:w-[20%]"></div>
+      <div className="w-full h-[15%] lg:h-full lg:w-[20%]">
+      <AdBanner
+                dataAdFormat="auto"
+                dataFullWidthResponsive={true}
+                dataAdSlot="4284247248"
+      />
+      </div>
       <div className="w-full h-[70%] px-3 lg:h-full lg:w-[60%] flex text-white flex-col items-center py-7 lg:py-20">
         <h1 className='text-4xl font-bold'>Compress PDF Files</h1>
         <h6 className='py-2 lg:py-4 font-serif text-center'>
@@ -94,7 +101,13 @@ const CompressPDFs: React.FC = () => {
           Download Compressed PDFs
         </button>
       </div>
-      <div className="w-full h-[15%] lg:h-full lg:w-[20%]"></div>
+      <div className="w-full h-[15%] lg:h-full lg:w-[20%]">
+      <AdBanner
+                dataAdFormat="auto"
+                dataFullWidthResponsive={true}
+                dataAdSlot="4284247248"
+      />
+      </div>
     </div>
   );
 };
